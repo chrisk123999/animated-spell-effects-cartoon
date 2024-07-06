@@ -932,5 +932,4 @@ Hooks.once('sequencer.ready', () => {
             },
         };
         Sequencer.Database.registerEntries('animated-spell-effects-cartoon', cartoonDatabase);
-    
 });

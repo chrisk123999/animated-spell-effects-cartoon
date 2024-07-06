@@ -1,45 +1,22 @@
 {
-  "name": "animated-spell-effects-cartoon",
+  "id": "animated-spell-effects-cartoon",
   "title": "Jack Kerouac's Animated Spell Effects: Cartoon",
   "description": "Cartoony animated effects for spells for use with various VTT's in the top-down/overhead perspective. All files are in transparent webm format. If you like my work, consider saying thanks on Discord: jackkerouac#0624.",
-  "version": "0.4.5",
-  "minimumCoreVersion": "0.5.5",
-  "compatibleCoreVersion": "10.291",
-  "author": "Jack Kerouac",
-  "dependencies": [],
+  "version": "0.4.6",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "12"
+  },
+  "authors": [
+    {
+      "name": "Jack Kerouac",
+	  "discord": "jackkerouac"
+    }
+  ],
   "esmodules": [
     "scripts/sequencer-db.js"
   ],
-  "packs": [
-    {
-      "name": "jkMacros",
-      "label": "JK - Spell Macros",
-      "path": "packs/jk-cartoon-macros.db",
-      "private": false,
-      "system": "dnd5e",
-      "type": "Macro",
-      "flags": {}
-    },
-    {
-      "name": "jkSpells",
-      "label": "JK - Spells",
-      "path": "packs/jk-cartoon-spells.db",
-      "private": false,
-      "system": "dnd5e",
-      "type": "Item",
-      "flags": {}
-    }
-  ],
-  "scripts": [],
-  "styles": [],
-  "media": [
-    {
-      "type": "icon",
-      "url": "https://avatars2.githubusercontent.com/u/341093?s=460&v=4"
-    }
-  ],
-  "languages": [],
-  "url": "https://github.com/jackkerouac/animated-spell-effects-cartoon",
-  "manifest": "https://github.com/jackkerouac/animated-spell-effects-cartoon/releases/download/latest/module.json",
-  "download": "https://github.com/jackkerouac/animated-spell-effects-cartoon/releases/download/latest/module.zip"
+  "url": "https://github.com/chrisk123999/animated-spell-effects-cartoon",
+  "manifest": "https://github.com/chrisk123999/animated-spell-effects-cartoon/releases/download/latest/module.json",
+  "download": "https://github.com/chrisk123999/animated-spell-effects-cartoon/releases/download/latest/module.zip"
 }
